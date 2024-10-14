@@ -1,16 +1,16 @@
 {
-    "name": "hongfs/thinkphp-log-sls",
-    "description": "ThinkPHP 阿里云日志服务驱动",
+    "name": "zhenghanfu/thinkphp-log-sls",
+    "description": "for aliyun fc&sls,copied from hongfs/thinkphp-log-sls",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Hongfs\\Think\\Log\\Driver\\": "src/"
+            "Zhenghanfu\\Think\\Log\\Driver\\": "src/"
         }
     },
     "authors": [
         {
-            "name": "hongfs",
-            "email": "hong@hongfs.cn"
+            "name": "hanfu",
+            "email": "tz.zhf@qq.com"
         }
     ],
     "require": {

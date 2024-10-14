@@ -49,8 +49,7 @@ class Sls
         }
 
         $this->client = new Client($this->config['endpoint'], $this->config['access_key_id'], $this->config['access_key_secret']);
-
-        $this->request_id = Uuid::uuid4()->toString();
+        $this->request_id = $_SERVER['HTTP_X_FC_REQUEST_ID'] ?? Uuid::uuid4()->toString();
     }
 
     /**
